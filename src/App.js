@@ -15,6 +15,7 @@ function App() {
       <Route path="/movies/:id" children={<Movie />}></Route>{/* make sure it matches */}
       <Route path="*">Error, this is invalid</Route>
     </Switch>
+    
   );
 }
 
